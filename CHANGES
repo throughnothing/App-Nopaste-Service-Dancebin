@@ -3,8 +3,14 @@ Changes from 2011-05-06 00:00:00 +0000 to present.
 ==================================================
 
 ------------------------------------------
-version 0.001 at 2012-05-05 05:49:48 +0000
+version 0.001 at 2012-05-05 05:50:41 +0000
 ------------------------------------------
+
+  Change: 27719c53ad969eb4aa2d777019c3fa65c36b3276
+  Author: William Wolf <throughnothing@gmail.com>
+  Date : 2012-05-05 01:50:09 +0000
+
+    updates 
 
   Change: 2876739105260e713ba1a8986c5b5743b3a252b3
   Author: William Wolf <throughnothing@gmail.com>
