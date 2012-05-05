@@ -7,7 +7,7 @@ use base q[App::Nopaste::Service];
 
 # ABSTRACT: nopaste service for L<Dancebin>
 
-sub uri { $ENV{DANCEBIN_URL} || 'http://dance.bin/' }
+sub uri { $ENV{DANCEBIN_URL} || 'http://danceb.in/' }
 
 sub fill_form {
     my ($self, $mech) = (shift, shift);
