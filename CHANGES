@@ -1,10 +1,32 @@
 ==================================================
-Changes from 2011-05-06 00:00:00 +0000 to present.
+Changes from 2011-05-09 00:00:00 +0000 to present.
 ==================================================
 
 ------------------------------------------
-version 0.001 at 2012-05-05 05:50:41 +0000
+version 0.002 at 2012-05-08 20:50:33 +0000
 ------------------------------------------
+
+  Change: f8447253ddb3b507d73faa6035df57e16b00d785
+  Author: William Wolf <throughnothing@gmail.com>
+  Date : 2012-05-08 16:50:18 +0000
+
+    update .gitignore 
+
+  Change: f75d3f4fd432c621dab9bff4f25d43efa31ed8c4
+  Author: William Wolf <throughnothing@gmail.com>
+  Date : 2012-05-08 16:49:58 +0000
+
+    Add Ability to set Expiration on posts. 
+
+------------------------------------------
+version 0.001 at 2012-05-05 05:50:53 +0000
+------------------------------------------
+
+  Change: 8205626a8f39575b474e4e07db114fb22dfa0430
+  Author: William Wolf <throughnothing@gmail.com>
+  Date : 2012-05-05 01:50:53 +0000
+
+    v0.001 
 
   Change: 27719c53ad969eb4aa2d777019c3fa65c36b3276
   Author: William Wolf <throughnothing@gmail.com>
