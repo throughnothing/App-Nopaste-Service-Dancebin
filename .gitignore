@@ -5,3 +5,5 @@ Makefile
 Makefile.old
 .build
 App-Nopaste-Service-Dancebin-*
+MYMETA*
+pm_to_blib
