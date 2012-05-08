@@ -18,6 +18,8 @@ sub fill_form {
         title   => decode_utf8($args{desc}),
         #lang    => $args{lang},
     };
+    my $exp = $ENV{DANCEBIN_EXP};
+    $content->{expiration} = $exp if $exp;
 
     my $form = $mech->form_number(1) || return;
 
@@ -55,3 +57,11 @@ To use, simple use:
 
 By default it pastes to L<http://danceb.in/|http://danceb.in/>, but you can
 override this be setting the C<DANCEBIN_URL> environment variable.
+
+The expiration of the post can be modified by setting the C<DANCEBIN_EXP>
+environment variable.  Acceptable values are things like:
+
+    DANCEBIN_EXP=weeks:1
+    DANCEBIN_EXP=years:1:months:2
+    DANCEBIN_EXP=weeks:1:days:2:hours:12:minutes:10:seconds:5
+    DANCEBIN_EXP=never:1  # Never Expire

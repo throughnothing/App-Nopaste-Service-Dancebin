@@ -4,7 +4,7 @@ App::Nopaste::Service::Dancebin - nopaste service for [Dancebin](http://search.c
 
 # VERSION
 
-version 0.001
+version 0.002
 
 # SYNOPSIS
 
@@ -16,6 +16,14 @@ To use, simple use:
 
 By default it pastes to [http://danceb.in/](http://danceb.in/), but you can
 override this be setting the `DANCEBIN_URL` environment variable.
+
+The expiration of the post can be modified by setting the `DANCEBIN_EXP`
+environment variable.  Acceptable values are things like:
+
+    DANCEBIN_EXP=weeks:1
+    DANCEBIN_EXP=years:1:months:2
+    DANCEBIN_EXP=weeks:1:days:2:hours:12:minutes:10:seconds:5
+    DANCEBIN_EXP=never:1  # Never Expire
 
 # AUTHOR
 
