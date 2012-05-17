@@ -1,10 +1,26 @@
 ==================================================
-Changes from 2011-05-09 00:00:00 +0000 to present.
+Changes from 2011-05-18 00:00:00 +0000 to present.
 ==================================================
 
 ------------------------------------------
-version 0.002 at 2012-05-08 20:50:33 +0000
+version 0.003 at 2012-05-17 23:07:05 +0000
 ------------------------------------------
+
+  Change: 1bec6a66c34db144cffd3d6e8b80f5f89de57434
+  Author: William Wolf <throughnothing@gmail.com>
+  Date : 2012-05-17 16:06:12 +0000
+
+    Add Lang support 
+
+------------------------------------------
+version 0.002 at 2012-05-08 20:50:59 +0000
+------------------------------------------
+
+  Change: e0528fc86d8093f78329a21a7beb3e49044bc206
+  Author: William Wolf <throughnothing@gmail.com>
+  Date : 2012-05-08 16:50:59 +0000
+
+    v0.002 
 
   Change: f8447253ddb3b507d73faa6035df57e16b00d785
   Author: William Wolf <throughnothing@gmail.com>
