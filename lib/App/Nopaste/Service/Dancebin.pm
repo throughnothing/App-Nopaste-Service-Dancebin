@@ -16,7 +16,7 @@ sub fill_form {
     my $content = {
         code    => decode_utf8($args{text}),
         title   => decode_utf8($args{desc}),
-        #lang    => $args{lang},
+        lang    => decode_utf8($args{lang}),
     };
     my $exp = $ENV{DANCEBIN_EXP};
     $content->{expiration} = $exp if $exp;
