@@ -17,6 +17,12 @@ To use, simple use:
 By default it pastes to [http://danceb.in/](http://danceb.in/), but you can
 override this be setting the `DANCEBIN_URL` environment variable.
 
+You can set HTTP Basic Auth credentials to use for the nopaste service
+if necessary by using:
+
+    DANCEBIN_USER=username
+    DANCEBIN_PASS=password
+
 The expiration of the post can be modified by setting the `DANCEBIN_EXP`
 environment variable.  Acceptable values are things like:
 
