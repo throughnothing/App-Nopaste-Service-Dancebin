@@ -1,10 +1,34 @@
 ==================================================
-Changes from 2011-05-18 00:00:00 +0000 to present.
+Changes from 2011-08-28 00:00:00 +0000 to present.
 ==================================================
 
 ------------------------------------------
-version 0.003 at 2012-05-17 23:07:05 +0000
+version 0.004 at 2012-08-27 21:07:57 +0000
 ------------------------------------------
+
+  Change: 73bf7349565252651fcbe2825b76c09dc0eed0b6
+  Author: William Wolf <throughnothing@gmail.com>
+  Date : 2012-08-27 14:06:47 +0000
+
+    Merge pull request #1 from throughnothing/credentials
+
+    Allow use of BasicAuth credentials. 
+
+  Change: 5a4f035cfe788d024014edfe98104e42b06d8fa9
+  Author: William Wolf <throughnothing@gmail.com>
+  Date : 2012-08-27 14:04:49 +0000
+
+    Allow use of BasicAuth credentials. 
+
+------------------------------------------
+version 0.003 at 2012-05-17 23:08:07 +0000
+------------------------------------------
+
+  Change: 93f5a7248c5acdffb40d803c59fd6f461ead7b45
+  Author: William Wolf <throughnothing@gmail.com>
+  Date : 2012-05-17 16:08:07 +0000
+
+    v0.003 
 
   Change: 1bec6a66c34db144cffd3d6e8b80f5f89de57434
   Author: William Wolf <throughnothing@gmail.com>

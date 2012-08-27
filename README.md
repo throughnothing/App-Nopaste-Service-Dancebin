@@ -4,7 +4,7 @@ App::Nopaste::Service::Dancebin - nopaste service for [Dancebin](http://search.c
 
 # VERSION
 
-version 0.003
+version 0.004
 
 # SYNOPSIS
 
