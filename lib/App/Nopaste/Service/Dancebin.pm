@@ -9,6 +9,15 @@ use base q[App::Nopaste::Service];
 
 sub uri { $ENV{DANCEBIN_URL} || 'http://danceb.in/' }
 
+sub get {
+    my ($self, $mech) = @_;
+
+    # Set BasicAuth credentials if needed
+    $mech->credentials( $self->_credentials ) if $self->_credentials;
+
+    return $mech->get($self->uri);
+}
+
 sub fill_form {
     my ($self, $mech) = (shift, shift);
     my %args = @_;
@@ -20,6 +29,9 @@ sub fill_form {
     };
     my $exp = $ENV{DANCEBIN_EXP};
     $content->{expiration} = $exp if $exp;
+
+    # Set BasicAuth credentials if needed
+    $mech->credentials( $self->_credentials ) if $self->_credentials;
 
     my $form = $mech->form_number(1) || return;
 
@@ -45,6 +57,8 @@ sub return {
     }
 }
 
+sub _credentials { ($ENV{DANCEBIN_USER}, $ENV{DANCEBIN_PASS}) }
+
 1;
 
 =head1 SYNOPSIS
@@ -57,6 +71,12 @@ To use, simple use:
 
 By default it pastes to L<http://danceb.in/|http://danceb.in/>, but you can
 override this be setting the C<DANCEBIN_URL> environment variable.
+
+You can set HTTP Basic Auth credentials to use for the nopaste service
+if necessary by using:
+
+    DANCEBIN_USER=username
+    DANCEBIN_PASS=password
 
 The expiration of the post can be modified by setting the C<DANCEBIN_EXP>
 environment variable.  Acceptable values are things like:
